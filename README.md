@@ -6,7 +6,7 @@ Heavily based on [tpaschalis/s3-cp-action](https://github.com/tpaschalis/s3-cp-a
 
 ## Example
  
-Replace `ap-southeast-2` with your Github region, then either setup AWS_S3_BUCKET, AWS_ACCESS_KEY and AWS_SECRET_KEY as Github secrets or include them in the example below (**private repos only**.
+Replace `ap-southeast-2` with your Github region, then either setup AWS_S3_BUCKET, AWS_ACCESS_KEY and AWS_SECRET_KEY as Github secrets or include them in the example below (**private repos only**). Note the slight deviation from the standard AWS naming (sorry!).
 
 ```
 - name: Upload output to S3

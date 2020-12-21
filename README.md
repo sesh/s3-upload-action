@@ -9,7 +9,7 @@ Heavily based on [tpaschalis/s3-cp-action](https://github.com/tpaschalis/s3-cp-a
 Replace `ap-southeast-2` with your Github region, then either setup AWS_S3_BUCKET, AWS_ACCESS_KEY and AWS_SECRET_KEY as Github secrets or include them in the example below (**private repos only**.
 
 ```
-- name: Upload weekly summary to S3
+- name: Upload output to S3
   uses: sesh/s3-upload-action@main
   with:
     args: --acl public-read
